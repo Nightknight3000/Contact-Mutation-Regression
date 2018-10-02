@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 from src.scripts.io.writer.plot_file_writer import write_plot_as_png
 
 
-def setup_evaluation_plot(prediction, ddG_test, classifier_tool, inputfile):
-    title = inputfile.split('/')[len(inputfile.split('/')) - 1].replace('.csv', '') + '_' + classifier_tool
+def setup_evaluation_plot(prediction, ddG_test, classifier_tool, inputfilepath):
+    title = inputfilepath.split('/')[len(inputfilepath.split('/')) - 1].replace('.csv', '').replace('.txt', '') + '_' + classifier_tool
     differences = [abs(ddG_test.values.tolist()[i] - prediction[i]) for i in range(len(prediction))]
 
     # figure 1: difference_figure
@@ -27,21 +27,22 @@ def plot_difference_figure(differences, title):
     write_plot_as_png(plt, title + '01.png')
 
 
-def plot_pred_and_test_plot_figure(prediction, ddG_test, title):
+def plot_pred_and_test_plot_figure(pred_val, test_val, title):
     plt.figure(figsize=(12, 6))
     plt.subplot(1, 1, 1)
-    plt.plot(prediction, '-b', label='pred_value')
-    plt.plot(ddG_test.values.tolist(), '-r', label='test_value')
+    plt.plot(pred_val, '-b', label='pred_value')
+    plt.plot(test_val.values.tolist(), '-r', label='test_value')
     plt.legend(loc='upper right')
     plt.ylabel('ddG')
     write_plot_as_png(plt, title + '02.png')
 
 
-def plot_pred_and_test_point_figure(prediction, ddG_test, title):
+def plot_pred_and_test_point_figure(pred_val, test_val, title):
+    interval = [test_val.min(), test_val.max()]
     plt.figure(figsize=(12, 6))
     plt.subplot(1, 1, 1)
-    plt.plot(prediction, ddG_test.values.tolist(), '.', label='')
-    plt.plot([-5, 0, 5], [-5, 0, 5], '--', label='id')
+    plt.plot(pred_val, test_val.values.tolist(), '.', label='')
+    plt.plot(interval, interval, '--', label='id')
     plt.legend(loc='upper right')
     plt.xlabel('pred_val')
     plt.ylabel('test_val')

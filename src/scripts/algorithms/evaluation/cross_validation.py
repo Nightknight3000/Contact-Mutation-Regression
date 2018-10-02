@@ -1,9 +1,9 @@
 import logging
+import matplotlib.pyplot as plt
 import numpy as np
 
 from sklearn.model_selection import cross_val_score
-from sklearn.metrics import mean_absolute_error
-from sklearn.metrics import mean_squared_error
+from sklearn.model_selection import cross_val_predict
 
 console = logging.StreamHandler()
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -16,15 +16,28 @@ LOG.setLevel(logging.INFO)
 def k_fold_cross_validation(regression, dataset_test, ddG_test):
     splits = 10
     LOG.info("Perform "+str(splits)+"-fold-crossvalidation")
-    k_fold = cross_val_score(regression, np.asarray(dataset_test), np.asarray(ddG_test), cv=splits,
+    k_fold = cross_val_score(regression, np.asarray(dataset_test), np.asarray(ddG_test), cv=splits)
+    k_fold_mean_absolute_error = cross_val_score(regression, np.asarray(dataset_test), np.asarray(ddG_test), cv=splits,
                              scoring="neg_mean_absolute_error")
-    # print("hi "+str(len(prediction.tolist()))+'\n'+str(prediction.tolist())+"\n")
-    # print("HALLO "+str(len(ddG_test.values.tolist()))+'\n'+str(ddG_test.values.tolist()))
-    # LOG.info("Finished "+str(splits)+"-fold-crossvalidation")
-    # LOG.info('Mean-Absolute-Error: '+str(round(mean_absolute_error(ddG_test.values.tolist(), prediction), 2)))
-    # LOG.info('Mean-Squared-Error: '+str(round(mean_squared_error(ddG_test.values.tolist(), prediction), 2)))
-    # LOG.info('CV-Accuracy-Mean: '+str(round(k_fold.mean()*100, 2))+'%')
-    # LOG.info('CV-Standard-Deviation: '+str(round(k_fold.std(), 2)))
-    # LOG.info('ddG-Interval: ['+str(ddG_test.min())+', '+str(ddG_test.max())+'] => Intervalsize: '+str(round(ddG_test.max()-ddG_test.min(), 2)))
-    # LOG.info('ddG-Deviation-Percentage: '+str(round(k_fold.std()*100/ddG_test.max()-ddG_test.min(), 2))+"%")
+    k_fold_mean_squared_error = cross_val_score(regression, np.asarray(dataset_test), np.asarray(ddG_test), cv=splits,
+                                                 scoring="neg_mean_squared_error")
+
+    LOG.info("Finished "+str(splits)+"-fold-crossvalidation")
+    LOG.info('Mean-Absolute-Error: '+str(round(k_fold_mean_absolute_error.mean(), 2)))
+    LOG.info('Mean-Squared-Error: '+str(round(k_fold_mean_squared_error.mean(), 2)))
+    LOG.info('CV-Accuracy-Mean: '+str(round(k_fold.mean(), 2)*100)+'%')
+    LOG.info('CV-Standard-Deviation: '+str(round(k_fold.std(), 2)))
+    LOG.info('ddG-Interval: ['+str(ddG_test.min())+', '+str(ddG_test.max())+'] => Intervalsize: '+str(round(ddG_test.max()-ddG_test.min(), 2)))
+    LOG.info('ddG-Deviation-Percentage: '+str(round(k_fold.std()*100/ddG_test.max()-ddG_test.min(), 2))+"%")
+
+    # predicted = cross_val_predict(regression, dataset_test, ddG_test, cv=splits)
+    # interval = [np.array(ddG_test.values.tolist()).min(), np.array(ddG_test.values.tolist()).max()]
+    # plt.figure(figsize=(12, 6))
+    # plt.subplot(1, 1, 1)
+    # plt.plot(predicted, ddG_test.values.tolist(), '.', label='')
+    # plt.plot(interval, interval, '--', label='id')
+    # plt.legend(loc='upper right')
+    # plt.xlabel('pred_val')
+    # plt.ylabel('test_val')
+    # plt.show()
 
