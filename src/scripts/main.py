@@ -45,8 +45,7 @@ def main(classifier_tool, input_training_map, input_prediction_map, output_predi
         k_fold_cross_validation(regression, dataset_test, ddG_test)
         prediction = regression.predict(dataset_test)
         setup_evaluation_plot(prediction, ddG_test, classifier_tool, input_training_map)
-        # -c xgb -i data/inputfiles/contact_map_blomap_6A.csv -p data/inputfiles/contact_map_blomap_6A.csv -o data/outputfiles/hi.csv
-        # -c xgb -i data/inputfiles/contact_map_blomap_6A.csv -p None -o None
+
         if input_prediction_map != 'None':
             if input_prediction_map.lower().endswith(('.csv', '.txt')) and output_predicted_map != 'None':
                 predicted_contact_map = predict_using_regression(regression,
