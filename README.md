@@ -10,7 +10,8 @@ Usage
 ## The CLI - Command Line Interface
 ```bash
 > python start_mhc_1_prediction_tool.py
-usage: start_contact_mutation_regression.py -i <inputfilepath> -p <inputfilepath> -o <outputpath> [-s/-v]
+usage: start_contact_mutation_regression.py -c xgb -i <inputfilepath> -p <inputfilepath> -o <outputpath> [-s/-v]
+-c <arg> either xgb or sklearn to specify learning algorithm
 -i <arg> csv/txt-file for classifier training
 -p <arg> csv/txt-file to be predicted by classifier (optional)
 -o <arg> output path for classified inputfile (optional)
