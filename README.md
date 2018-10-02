@@ -10,7 +10,7 @@ Usage
 ## The CLI - Command Line Interface
 ```bash
 > python start_mhc_1_prediction_tool.py
-usage: start_contact_mutation_regression.py -c xgb -i <inputfilepath> -p <inputfilepath> -o <outputpath> [-s/-v]
+usage: start_contact_mutation_regression.py -c <learning algorithm> -i <inputfilepath> -p <inputfilepath> -o <outputpath> [-s/-v]
 -c <arg> either xgb or sklearn to specify learning algorithm
 -i <arg> csv/txt-file for classifier training
 -p <arg> csv/txt-file to be predicted by classifier (optional)
@@ -30,7 +30,7 @@ Now we can run the project using our shell of choice:
 
 Authors
 =====
-Team iGEM 2018 Tübingen\n
-Lukas Heumos\n
-Steffen Lemke\n
-Alexander Röhl\n
+Team iGEM 2018 Tübingen <br />
+Lukas Heumos <br />
+Steffen Lemke <br />
+Alexander Röhl
