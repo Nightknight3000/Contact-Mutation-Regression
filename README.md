@@ -11,7 +11,7 @@ Usage
 ```bash
 > python start_contact_mutation_regression.py
 usage: start_contact_mutation_regression.py -c <learning algorithm> -i <inputfilepath> -p <inputfilepath> -o <outputpath> [-s/-v]
--c <arg> either xgb or sklearn to specify learning algorithm
+-c <arg> either 'xgb', 'sklearn', or 'ridge' to specify learning algorithm
 -i <arg> csv/txt-file for classifier training
 -p <arg> csv/txt-file to be predicted by classifier (optional)
 -o <arg> output path for classified inputfile (optional)

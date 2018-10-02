@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b5eb13f4-9d29-4333-a90a-089cfce7edf9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/plots/pred_and_test_point_figure/contact_map_blomap_6A_xgb03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/plots/pred_and_test_point_figure/contact_map_blomap_8A_03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/plots/pred_and_test_point_figure/contact_number_blomap_10A_03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/plots/pred_and_test_point_figure/contact_number_blomap_8A_03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/plots/pred_and_test_point_figure/only_amino_acids_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/algorithms/evaluation/setup_eval_plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/algorithms/evaluation/setup_eval_plot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/algorithms/learning_model_train/sklearn_regression_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/algorithms/learning_model_train/sklearn_regression_train.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scripts/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,53 +16,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="contact_number_blomap_6A_02.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_plot_figure/contact_number_blomap_6A_02.png">
+      <file leaf-file-name="contact_map_blomap_6A_ridge01.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/plots/difference_figure/contact_map_blomap_6A_ridge01.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file leaf-file-name="contact_number_blomap_8A_02.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_plot_figure/contact_number_blomap_8A_02.png">
+      <file leaf-file-name="contact_map_blomap_6A_ridge03.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_point_figure/contact_map_blomap_6A_ridge03.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file leaf-file-name="contact_number_blomap_10A_02.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_plot_figure/contact_number_blomap_10A_02.png">
+      <file leaf-file-name="contact_map_blomap_6A_sklearn03.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_point_figure/contact_map_blomap_6A_sklearn03.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file leaf-file-name="contact_number_blomap_12A_02.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_plot_figure/contact_number_blomap_12A_02.png">
+      <file leaf-file-name="contact_map_blomap_6A_xgb03.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_point_figure/contact_map_blomap_6A_xgb03.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file leaf-file-name="only_amino_acids_02.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_plot_figure/only_amino_acids_02.png">
+      <file leaf-file-name="plot_file_writer.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scripts/io/writer/plot_file_writer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="setup_eval_plot.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/scripts/algorithms/evaluation/setup_eval_plot.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="302">
+              <caret line="46" column="26" lean-forward="true" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact_map_blomap_6A_sklearn01.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/plots/difference_figure/contact_map_blomap_6A_sklearn01.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file leaf-file-name="contact_number_blomap_12A_03_xgb01.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_point_figure/contact_number_blomap_12A_03_xgb01.png">
+      <file leaf-file-name="contact_map_blomap_6A_xgb01.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/plots/difference_figure/contact_map_blomap_6A_xgb01.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file leaf-file-name="contact_number_blomap_12A_03_xgb02.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_point_figure/contact_number_blomap_12A_03_xgb02.png">
+      <file leaf-file-name="contact_map_blomap_6A_ridge02.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_plot_figure/contact_map_blomap_6A_ridge02.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file leaf-file-name="contact_number_blomap_12A_03_xgb03.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_point_figure/contact_number_blomap_12A_03_xgb03.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="contact_number_blomap_12A_03_xgb04.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_point_figure/contact_number_blomap_12A_03_xgb04.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="contact_map_blomap_6A_03.png" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_point_figure/contact_map_blomap_6A_03.png">
+      <file leaf-file-name="contact_map_blomap_6A_sklearn02.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_plot_figure/contact_map_blomap_6A_sklearn02.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
@@ -102,13 +110,15 @@
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/src/scripts/algorithms/evaluation/cross_validation.py" />
         <option value="$PROJECT_DIR$/src/scripts/io/writer/plot_file_writer.py" />
-        <option value="$PROJECT_DIR$/src/scripts/algorithms/evaluation/setup_eval_plot.py" />
         <option value="$PROJECT_DIR$/src/scripts/algorithms/learning_model_predict/gbtree_regression_predict.py" />
         <option value="$PROJECT_DIR$/src/scripts/io/parser/csv_blomap_parser.py" />
         <option value="$PROJECT_DIR$/src/scripts/algorithms/learning_model_predict/learning_model_predict.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/scripts/io/writer/predicted_file_writer.py" />
+        <option value="$PROJECT_DIR$/src/scripts/algorithms/learning_model_train/sklearn_regression_train.py" />
+        <option value="$PROJECT_DIR$/src/scripts/algorithms/learning_model_train/ridge_regression_train.py" />
         <option value="$PROJECT_DIR$/src/scripts/main.py" />
+        <option value="$PROJECT_DIR$/src/scripts/algorithms/evaluation/setup_eval_plot.py" />
       </list>
     </option>
   </component>
@@ -142,7 +152,27 @@
               <item name="Contact-Mutation-Regression" type="b2602c69:ProjectViewProjectNode" />
               <item name="Contact-Mutation-Regression" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="outputfiles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Contact-Mutation-Regression" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Contact-Mutation-Regression" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
               <item name="plots" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Contact-Mutation-Regression" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Contact-Mutation-Regression" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="plots" type="462c0819:PsiDirectoryNode" />
+              <item name="difference_figure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Contact-Mutation-Regression" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Contact-Mutation-Regression" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="plots" type="462c0819:PsiDirectoryNode" />
+              <item name="pred_and_test_plot_figure" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Contact-Mutation-Regression" type="b2602c69:ProjectViewProjectNode" />
@@ -161,6 +191,44 @@
               <item name="Contact-Mutation-Regression" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Contact-Mutation-Regression" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Contact-Mutation-Regression" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Contact-Mutation-Regression" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Contact-Mutation-Regression" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="evaluation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Contact-Mutation-Regression" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Contact-Mutation-Regression" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="learning_model_train" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Contact-Mutation-Regression" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Contact-Mutation-Regression" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Contact-Mutation-Regression" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Contact-Mutation-Regression" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+              <item name="writer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -207,7 +275,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/start_contact_mutation_regression.py" />
-      <option name="PARAMETERS" value="-c xgb -i data/inputfiles/contact_map_blomap_6A.csv -p data/inputfiles/contact_map_blomap_6A.csv -o data/outputfiles/contact_map_blomap_6A_xgb_predicted.csv" />
+      <option name="PARAMETERS" value="-c ridge -i data/inputfiles/contact_map_blomap_6A.csv -p data/inputfiles/contact_map_blomap_6A.csv -o data/outputfiles/contact_map_blomap_6A_ridge_predicted.csv" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -287,7 +355,14 @@
       <option name="project" value="LOCAL" />
       <updated>1538501927823</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Delete unneeded plots">
+      <created>1538502307989</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1538502307989</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -296,6 +371,7 @@
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2376302" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
@@ -327,39 +403,10 @@
     <MESSAGE value="Correct README.md last time" />
     <MESSAGE value="Add prediction filewriter" />
     <MESSAGE value="Refactor output" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor output" />
+    <MESSAGE value="Delete unneeded plots" />
+    <option name="LAST_COMMIT_MESSAGE" value="Delete unneeded plots" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_point_figure/contact_number_blomap_6A_03_xgb01.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_point_figure/contact_number_blomap_6A_03_xgb02.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_point_figure/contact_number_blomap_6A_03_xgb03.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_point_figure/contact_number_blomap_6A_03_xgb04.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_point_figure/contact_map_blomap_6A_03_skl02.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_point_figure/contact_map_blomap_6A_03_skl04.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_point_figure/contact_map_blomap_6A_03_skl03.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_point_figure/contact_map_blomap_6A_03_skl01.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_point_figure/contact_map_blomap_6A_03_xgb01.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_point_figure/contact_map_blomap_6A_03_xgb02.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_point_figure/contact_map_blomap_6A_03_xgb03.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -370,26 +417,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1972">
           <caret line="116" column="5" selection-start-line="116" selection-start-column="5" selection-end-line="116" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/algorithms/learning_model_train/gbtree_regression_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/algorithms/learning_model_train/sklearn_regression_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -413,19 +440,6 @@
           <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/algorithms/evaluation/setup_eval_plot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#1014#1310#0" />
-            <element signature="e#1473#1769#0" />
-            <element signature="e#1624#1920#0" />
           </folding>
         </state>
       </provider>
@@ -454,13 +468,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/io/writer/plot_file_writer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -475,27 +482,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/io/writer/predicted_file_writer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/scripts/algorithms/learning_model_predict/learning_model_predict.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="19" selection-start-column="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="36" lean-forward="true" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -509,17 +499,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/outputfiles/contact_map_blomap_6A_xgb_predicted.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="99" selection-start-column="99" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/plots/difference_figure/contact_map_blomap_6A_01.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/plots/difference_figure/contact_map_blomap_6A_xgb01.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/data/plots/difference_figure/contact_map_blomap_8A_01.png">
@@ -543,9 +523,6 @@
     <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_plot_figure/contact_map_blomap_6A_02.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_plot_figure/contact_map_blomap_6A_xgb02.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_plot_figure/contact_map_blomap_8A_02.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -561,9 +538,6 @@
     <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_plot_figure/contact_number_blomap_12A_02.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_plot_figure/only_amino_acids_02.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_point_figure/contact_number_blomap_12A_03_xgb01.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -573,11 +547,118 @@
     <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_point_figure/contact_number_blomap_12A_03_xgb03.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_point_figure/contact_map_blomap_6A_03.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_point_figure/contact_number_blomap_12A_03_xgb04.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_point_figure/contact_map_blomap_6A_03.png">
+    <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_plot_figure/only_amino_acids_02.png">
       <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/algorithms/learning_model_train/sklearn_regression_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/algorithms/learning_model_train/gbtree_regression_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/algorithms/learning_model_train/ridge_regression_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-32">
+          <caret line="42" column="42" lean-forward="true" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/io/writer/predicted_file_writer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/outputfiles/contact_map_blomap_6A_xgb_predicted.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/outputfiles/contact_map_blomap_6A_sklearn_predicted.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/outputfiles/contact_map_blomap_6A_ridge_predicted.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_plot_figure/contact_map_blomap_6A_xgb02.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_plot_figure/contact_map_blomap_6A_sklearn02.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_plot_figure/contact_map_blomap_6A_ridge02.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/plots/difference_figure/contact_map_blomap_6A_sklearn01.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/plots/difference_figure/contact_map_blomap_6A_ridge01.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_point_figure/contact_map_blomap_6A_ridge03.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_point_figure/contact_map_blomap_6A_sklearn03.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/plots/difference_figure/contact_map_blomap_6A_xgb01.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_point_figure/contact_map_blomap_6A_xgb03.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/io/writer/plot_file_writer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/algorithms/evaluation/setup_eval_plot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="46" column="26" lean-forward="true" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
