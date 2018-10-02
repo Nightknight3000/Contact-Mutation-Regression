@@ -22,11 +22,11 @@ usage: start_contact_mutation_regression.py -c <learning algorithm> -i <inputfil
 Examples
 =====
 Using the example file 'contact_map_blomap_6A.csv' as first inputfile in the data folder:
-[data](https://github.com/Nightknight3000/Contact-Mutation-Regression/tree/master/data).
+[data](https://github.com/Nightknight3000/Contact-Mutation-Regression/tree/master/data/inputfiles).
 
 Now we can run the project using our shell of choice:
 
-<code>python start_contact_mutation_regression.py -c xgb -i <inputfilepath> -p False -o False</code>
+<code>python start_contact_mutation_regression.py -c xgb -i data/inputfiles/contact_map_blomap_6A.csv -p False -o False</code>
 
 Authors
 =====
