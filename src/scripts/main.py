@@ -4,11 +4,11 @@ import sys
 
 from src.scripts.io.parser.csv_blomap_parser import parse_csv_blomap
 from src.scripts.algorithms.dataset.random_split import random_dataset_split
-from src.scripts.algorithms.gbtree.gbtree_regression_train import train_xgb_regression
-from src.scripts.algorithms.sklearn.sklearn_regression_train import train_sklearn_regression
+from src.scripts.algorithms.learning_model_train.gbtree_regression_train import train_xgb_regression
+from src.scripts.algorithms.learning_model_train.sklearn_regression_train import train_sklearn_regression
 from src.scripts.algorithms.evaluation.cross_validation import k_fold_cross_validation
-from src.scripts.algorithms.gbtree.gbtree_regression_predict import predict_using_xgb_regression
-from src.scripts.algorithms.sklearn.sklearn_regression_predict import predict_using_sklearn_regression
+from src.scripts.algorithms.evaluation.setup_eval_plot import setup_evaluation_plot
+from src.scripts.algorithms.learning_model_predict.learning_model_predict import predict_using_regression
 from src.scripts.io.writer.predicted_file_writer import write_predicted_blomap_file
 
 console = logging.StreamHandler()
@@ -42,19 +42,19 @@ def main(classifier_tool, input_training_map, input_prediction_map, output_predi
         else:
             regression = train_sklearn_regression(dataset_train, ddG_train)
 
-        k_fold_cross_validation(regression, dataset_test, ddG_test, input_training_map)
-
-        if input_prediction_map is True:
-            if input_prediction_map.lower().endswith(('.csv', '.txt')) and output_predicted_map is True:
-                if classifier_tool == 'xgb':
-                    predicted_contact_map = predict_using_xgb_regression(regression,
-                                                             parse_csv_blomap(input_prediction_map, False))
-                else:
-                    predicted_contact_map = predict_using_sklearn_regression(regression,
-                                                                         parse_csv_blomap(input_prediction_map, False))
+        k_fold_cross_validation(regression, dataset_test, ddG_test)
+        prediction = regression.predict(dataset_test)
+        setup_evaluation_plot(prediction, ddG_test, classifier_tool, input_training_map)
+        # -c xgb -i data/inputfiles/contact_map_blomap_6A.csv -p data/inputfiles/contact_map_blomap_6A.csv -o data/outputfiles/hi.csv
+        # -c xgb -i data/inputfiles/contact_map_blomap_6A.csv -p None -o None
+        if input_prediction_map != 'None':
+            if input_prediction_map.lower().endswith(('.csv', '.txt')) and output_predicted_map != 'None':
+                predicted_contact_map = predict_using_regression(regression,
+                                                                 parse_csv_blomap(input_prediction_map, False))
                 write_predicted_blomap_file(predicted_contact_map, output_predicted_map)
             else:
-                LOG.error('Please check your inputfile extension to be either .txt. or .csv, and specify an outputfilepath!')
+                LOG.error('Please check your inputfile extension to be either .txt. or .csv, ' +
+                          'and specify an outputfilepath!')
     else:
         LOG.error('Inputfile invalid extension error')
 

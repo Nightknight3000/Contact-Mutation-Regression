@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5eb13f4-9d29-4333-a90a-089cfce7edf9" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/algorithms/evaluation/cross_validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/algorithms/evaluation/cross_validation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/algorithms/gbtree/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/algorithms/gbtree/gbtree_regression_predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/algorithms/learning_model_predict/learning_model_predict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/algorithms/gbtree/gbtree_regression_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/algorithms/learning_model_train/gbtree_regression_train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/algorithms/sklearn/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/algorithms/sklearn/sklearn_regression_predict.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/algorithms/sklearn/sklearn_regression_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/algorithms/learning_model_train/sklearn_regression_train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/io/parser/csv_blomap_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/io/parser/csv_blomap_parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/io/writer/predicted_file_writer.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/io/writer/predicted_file_writer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,20 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requirements.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" selection-start-column="5" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scripts/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="44" lean-forward="true" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
+            <state relative-caret-position="136">
+              <caret line="44" column="67" selection-start-line="44" selection-start-column="67" selection-end-line="44" selection-end-column="67" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -34,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="random_split.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scripts/algorithms/dataset/random_split.py">
+      <file leaf-file-name="csv_blomap_parser.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scripts/io/parser/csv_blomap_parser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="121" selection-start-line="14" selection-start-column="121" selection-end-line="14" selection-end-column="121" />
+            <state relative-caret-position="306">
+              <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -46,26 +48,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cross_validation.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scripts/algorithms/evaluation/cross_validation.py">
+      <file leaf-file-name="frame.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Hello World/venv/Lib/site-packages/pandas/core/frame.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1054">
-              <caret line="62" column="73" selection-start-line="62" selection-start-column="73" selection-end-line="62" selection-end-column="73" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="146">
+              <caret line="6325" selection-start-line="6325" selection-end-line="6325" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sklearn_regression_train.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scripts/algorithms/sklearn/sklearn_regression_train.py">
+      <file leaf-file-name="contact_map_blomap_6A.csv" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data/inputfiles/contact_map_blomap_6A.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="15" column="56" lean-forward="true" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="plot_file_writer.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scripts/io/writer/plot_file_writer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -73,47 +78,35 @@
       <file leaf-file-name="predicted_file_writer.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scripts/io/writer/predicted_file_writer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+            <state relative-caret-position="85">
+              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="csv_blomap_parser.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scripts/io/parser/csv_blomap_parser.py">
+      <file leaf-file-name="learning_model_predict.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scripts/algorithms/learning_model_predict/learning_model_predict.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="19" selection-start-column="19" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sklearn_regression_predict.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scripts/algorithms/sklearn/sklearn_regression_predict.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gbtree_regression_predict.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scripts/algorithms/gbtree/gbtree_regression_predict.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+            <state relative-caret-position="306">
+              <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact_map_blomap_6A_xgb_predicted.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/outputfiles/contact_map_blomap_6A_xgb_predicted.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-column="278" />
             </state>
           </provider>
         </entry>
@@ -141,26 +134,30 @@
         <option value="$PROJECT_DIR$/start_contact_mutation_regression.py" />
         <option value="$PROJECT_DIR$/src/scripts/algorithms/dataset/random_statset_split.py" />
         <option value="$PROJECT_DIR$/src/scripts/algorithms/dataset/random_split.py" />
-        <option value="$PROJECT_DIR$/src/scripts/algorithms/evaluation/cross_validation.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/scripts/io/parser/contact_map_parser.py" />
-        <option value="$PROJECT_DIR$/src/scripts/io/parser/csv_blomap_parser.py" />
         <option value="$PROJECT_DIR$/src/scripts/io/writer/predictionfile_writer.py" />
         <option value="$PROJECT_DIR$/src/scripts/algorithms/gbtree/gbtree_regression_train.py" />
         <option value="$PROJECT_DIR$/src/scripts/algorithms/gbtree/gbtree_regression_predict.py" />
         <option value="$PROJECT_DIR$/src/scripts/algorithms/sklearn/sklearn_regression_predict.py" />
         <option value="$PROJECT_DIR$/src/scripts/algorithms/sklearn/sklearn_regression_train.py" />
-        <option value="$PROJECT_DIR$/src/scripts/main.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/src/scripts/algorithms/evaluation/cross_validation.py" />
+        <option value="$PROJECT_DIR$/src/scripts/io/writer/plot_file_writer.py" />
+        <option value="$PROJECT_DIR$/src/scripts/algorithms/evaluation/setup_eval_plot.py" />
+        <option value="$PROJECT_DIR$/src/scripts/algorithms/learning_model_predict/gbtree_regression_predict.py" />
+        <option value="$PROJECT_DIR$/src/scripts/main.py" />
+        <option value="$PROJECT_DIR$/src/scripts/io/parser/csv_blomap_parser.py" />
+        <option value="$PROJECT_DIR$/src/scripts/io/writer/predicted_file_writer.py" />
+        <option value="$PROJECT_DIR$/src/scripts/algorithms/learning_model_predict/learning_model_predict.py" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="442" />
-    <option name="y" value="-24" />
-    <option name="width" value="978" />
-    <option name="height" value="1039" />
+    <option name="x" value="-8" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -182,6 +179,18 @@
               <item name="Contact-Mutation-Regression" type="b2602c69:ProjectViewProjectNode" />
               <item name="Contact-Mutation-Regression" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Contact-Mutation-Regression" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Contact-Mutation-Regression" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="inputfiles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Contact-Mutation-Regression" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Contact-Mutation-Regression" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="outputfiles" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Contact-Mutation-Regression" type="b2602c69:ProjectViewProjectNode" />
@@ -212,7 +221,47 @@
               <item name="Contact-Mutation-Regression" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="evaluation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Contact-Mutation-Regression" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Contact-Mutation-Regression" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="learning_model_predict" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Contact-Mutation-Regression" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Contact-Mutation-Regression" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="learning_model_train" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Contact-Mutation-Regression" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Contact-Mutation-Regression" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
               <item name="io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Contact-Mutation-Regression" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Contact-Mutation-Regression" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+              <item name="parser" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Contact-Mutation-Regression" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Contact-Mutation-Regression" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+              <item name="writer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -226,11 +275,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\alexander\PyCharmProjects\Contact-Mutation-Regression\src\scripts\algorithms\learning_model_predict" />
+      <recent name="C:\Users\alexander\PyCharmProjects\Contact-Mutation-Regression\src\scripts\algorithms\train_learning_model" />
       <recent name="C:\Users\alexander\PyCharmProjects\Contact-Mutation-Regression\data\inputfiles" />
       <recent name="C:\Users\alexander\PyCharmProjects\Contact-Mutation-Regression\src\scripts\algorithms" />
       <recent name="C:\Users\alexander\PyCharmProjects\Contact-Mutation-Regression\src\scripts\algorithms\evaluation\gbtree" />
-      <recent name="C:\Users\alexander\PyCharmProjects\Contact-Mutation-Regression\src\scripts\io\parser" />
-      <recent name="C:\Users\alexander\PyCharmProjects\Contact-Mutation-Regression" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -259,7 +308,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/start_contact_mutation_regression.py" />
-      <option name="PARAMETERS" value="-c xgb -i data/inputfiles/contact_map_blomap_6A.csv -p False -o False" />
+      <option name="PARAMETERS" value="-c xgb -i data/inputfiles/contact_map_blomap_6A.csv -p data/inputfiles/contact_map_blomap_6A.csv -o data/outputfiles/contact_map_blomap_6A_xgb_predicted.csv" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -304,18 +353,39 @@
       <option name="project" value="LOCAL" />
       <updated>1538490707328</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Correct README.md">
+      <created>1538490819470</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1538490819470</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Correct README.md">
+      <created>1538490909748</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1538490909748</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Correct README.md last time">
+      <created>1538490979227</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1538490979227</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="0" width="781" height="830" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.40286833" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1451823" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33333334" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -341,27 +411,10 @@
     <MESSAGE value="Add README.md and .gitignore" />
     <MESSAGE value="Add new commandline option to specify learning algorithm + Organizing" />
     <MESSAGE value="Correct README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correct README.md" />
+    <MESSAGE value="Correct README.md last time" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correct README.md last time" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_plot_figure/contact_map_blomap_6A.csv.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_plot_figure/contact_map_blomap_8A.csv.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_plot_figure/contact_number_blomap_6A.csv.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_plot_figure/contact_number_blomap_8A.csv.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_point_figure/contact_map_blomap_6A.csv.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_point_figure/contact_map_blomap_8A.csv.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_point_figure/contact_number_blomap_6A.csv.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -472,7 +525,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/algorithms/gbtree/gbtree_regression_train.py">
+    <entry file="file://$PROJECT_DIR$/src/scripts/algorithms/learning_model_train/gbtree_regression_train.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
@@ -482,53 +535,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/algorithms/gbtree/gbtree_regression_predict.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/algorithms/sklearn/sklearn_regression_predict.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/algorithms/sklearn/sklearn_regression_train.py">
+    <entry file="file://$PROJECT_DIR$/src/scripts/algorithms/learning_model_train/sklearn_regression_train.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/io/parser/csv_blomap_parser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/io/writer/predicted_file_writer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="44" lean-forward="true" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -543,16 +555,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/algorithms/evaluation/cross_validation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="62" column="73" selection-start-line="62" selection-start-column="73" selection-end-line="62" selection-end-column="73" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -560,10 +562,109 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/algorithms/sklearn/sklearn_regression_predict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/algorithms/evaluation/cross_validation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/algorithms/evaluation/setup_eval_plot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#1014#1310#0" />
+            <element signature="e#1473#1769#0" />
+            <element signature="e#1624#1920#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="44" column="67" selection-start-line="44" selection-start-column="67" selection-end-line="44" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/io/parser/csv_blomap_parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Hello World/venv/Lib/site-packages/pandas/core/frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="6325" selection-start-line="6325" selection-end-line="6325" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/outputfiles/hi.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/algorithms/learning_model_predict/learning_model_predict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/io/writer/predicted_file_writer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/io/writer/plot_file_writer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+        <state relative-caret-position="306">
+          <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/outputfiles/contact_map_blomap_6A_xgb_predicted.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="278" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/inputfiles/contact_map_blomap_6A.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="56" lean-forward="true" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
         </state>
       </provider>
     </entry>

@@ -26,7 +26,7 @@ Using the example file 'contact_map_blomap_6A.csv' as first inputfile in the dat
 
 Now we can run the project using our shell of choice:
 
-<code>python start_contact_mutation_regression.py -c xgb -i data/inputfiles/contact_map_blomap_6A.csv -p False -o False</code>
+<code>python start_contact_mutation_regression.py -c xgb -i data/inputfiles/contact_map_blomap_6A.csv -p data/inputfiles/contact_map_blomap_6A.csv -o data/outputfiles/contact_map_blomap_6A_xgb_predicted.csv</code>
 
 Authors
 =====
