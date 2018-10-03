@@ -22,7 +22,7 @@ LOG.setLevel(logging.INFO)
 
 def train_ridge_regression(dataset_train, ddG_train):
     LOG.info("Start ridge regression training")
-    regression = MLPRegressor()
+    regression = Ridge()
     regression = regression.fit(dataset_train, ddG_train)
     LOG.info("Finished ridge regression training")
     return regression
