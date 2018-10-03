@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5eb13f4-9d29-4333-a90a-089cfce7edf9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/algorithms/learning_model_train/ridge_regression_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/algorithms/learning_model_train/ridge_regression_train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Contact-Mutation-Regression.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,14 +16,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ridge_regression_train.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scripts/algorithms/learning_model_train/ridge_regression_train.py">
+      <file leaf-file-name="cross_validation.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scripts/algorithms/evaluation/cross_validation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+            <state relative-caret-position="323">
+              <caret line="28" column="67" lean-forward="true" selection-start-line="28" selection-start-column="67" selection-end-line="28" selection-end-column="67" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ridge_regression_train.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scripts/algorithms/learning_model_train/ridge_regression_train.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -31,7 +51,19 @@
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file leaf-file-name="contact_map_blomap_6A_ridge03.png" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gbtree_regression_train.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/scripts/algorithms/learning_model_train/gbtree_regression_train.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact_map_blomap_6A_ridge03.png" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_point_figure/contact_map_blomap_6A_ridge03.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
@@ -55,23 +87,8 @@
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file leaf-file-name="contact_map_blomap_6A_xgb02.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_plot_figure/contact_map_blomap_6A_xgb02.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
       <file leaf-file-name="contact_map_blomap_6A_sklearn02.png" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_plot_figure/contact_map_blomap_6A_sklearn02.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="contact_map_blomap_6A_sklearn01.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/plots/difference_figure/contact_map_blomap_6A_sklearn01.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="contact_map_blomap_6A_xgb01.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/plots/difference_figure/contact_map_blomap_6A_xgb01.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
@@ -121,7 +138,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="width" value="977" />
     <option name="height" value="1038" />
@@ -375,18 +392,32 @@
       <option name="project" value="LOCAL" />
       <updated>1538515113528</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Add additional (unused) learning algorithms">
+      <created>1538596334679</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1538596334679</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Revert third option to ridge regression">
+      <created>1538596504682</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1538596504683</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="0" width="781" height="830" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.41199479" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22786458" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.33898306" side_tool="true" visible="true" weight="0.32496512" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.66101694" visible="true" weight="0.32496512" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.33854166" side_tool="true" visible="true" weight="0.3213793" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6614583" visible="true" weight="0.3213793" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -419,7 +450,9 @@
     <MESSAGE value="Delete unneeded plots" />
     <MESSAGE value="Add new ridge-regression, example plots for each algorithm" />
     <MESSAGE value="Reuse CV-Evaluation, REFACTORING" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reuse CV-Evaluation, REFACTORING" />
+    <MESSAGE value="Add additional (unused) learning algorithms" />
+    <MESSAGE value="Revert third option to ridge regression" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revert third option to ridge regression" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/data/outputfiles/hi.csv" />
@@ -490,13 +523,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/scripts/io/writer/predicted_file_writer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -556,26 +582,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/algorithms/evaluation/cross_validation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="25" column="86" selection-start-line="25" selection-start-column="86" selection-end-line="25" selection-end-column="86" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/algorithms/learning_model_train/gbtree_regression_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/outputfiles/contact_map_blomap_6A_ridge_predicted.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -597,6 +603,32 @@
     <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_plot_figure/contact_map_blomap_6A_ridge02.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_point_figure/contact_map_blomap_6A_sklearn03.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_point_figure/contact_map_blomap_6A_xgb03.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_point_figure/contact_map_blomap_6A_ridge03.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/algorithms/evaluation/cross_validation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="28" column="67" lean-forward="true" selection-start-line="28" selection-start-column="67" selection-end-line="28" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/scripts/algorithms/learning_model_train/sklearn_regression_train.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -606,22 +638,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scripts/algorithms/learning_model_train/ridge_regression_train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+        <state relative-caret-position="204">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/algorithms/learning_model_train/gbtree_regression_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_point_figure/contact_map_blomap_6A_sklearn03.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_point_figure/contact_map_blomap_6A_xgb03.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/plots/pred_and_test_point_figure/contact_map_blomap_6A_ridge03.png">
-      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>
