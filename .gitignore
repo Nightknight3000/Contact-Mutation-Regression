@@ -114,4 +114,4 @@ __pycache__/
 template.egg-info/
 
 build/
-dist/
+dist/.idea/
