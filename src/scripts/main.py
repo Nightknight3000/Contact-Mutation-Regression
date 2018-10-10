@@ -4,13 +4,26 @@ import sys
 
 from src.scripts.io.parser.csv_blomap_parser import parse_csv_blomap
 from src.scripts.algorithms.dataset.random_split import random_dataset_split
-from src.scripts.algorithms.learning_model_train.gbtree_regression_train import train_xgb_regression
-from src.scripts.algorithms.learning_model_train.sklearn_regression_train import train_sklearn_regression
-from src.scripts.algorithms.learning_model_train.ridge_regression_train import train_ridge_regression
+from xgboost import XGBRegressor
+from sklearn.linear_model import LinearRegression
+from sklearn.linear_model import Ridge
+from src.scripts.algorithms.learning_model_train.regression_training import train_regression
 from src.scripts.algorithms.evaluation.cross_validation import k_fold_cross_validation
 from src.scripts.algorithms.evaluation.setup_eval_plot import setup_evaluation_plot
 from src.scripts.algorithms.learning_model_predict.learning_model_predict import predict_using_regression
 from src.scripts.io.writer.predicted_file_writer import write_predicted_blomap_file
+# # Other tested learning algorithms
+# from sklearn.linear_model import Lasso  # benötigt alpha=0.0001 Parameter
+# from sklearn.linear_model import ElasticNet  # benötigt alpha=0.0001 Parameter
+# from sklearn.linear_model import LassoLars  # benötigt alpha=0.0001 Parameter
+# from sklearn.linear_model import HuberRegressor  # benötigt alpha=0.0001 Parameter
+# from sklearn.neighbors import KNeighborsRegressor
+# from sklearn.gaussian_process import GaussianProcessRegressor  # benötigt alpha=0.0001 Parameter [verworfen]
+# from sklearn.tree import DecisionTreeRegressor  # [verworfen]
+# from sklearn.ensemble import GradientBoostingRegressor
+# from sklearn.isotonic import IsotonicRegression  # [verworfen]
+# from sklearn.neural_network import MLPRegressor  # benötigt alpha=0.0001 Parameter
+
 
 console = logging.StreamHandler()
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -39,13 +52,14 @@ def main(classifier_tool, input_training_map, input_prediction_map, output_predi
         dataset_train, dataset_test, ddG_train, ddG_test = random_dataset_split(input_dataset)
 
         if classifier_tool == 'xgb':
-            regression = train_xgb_regression(dataset_train, ddG_train, silent)
+            regressor = XGBRegressor(silent=silent)
         elif classifier_tool == 'sklearn':
-            regression = train_sklearn_regression(dataset_train, ddG_train)
+            regressor = LinearRegression()
         else:
-            regression = train_ridge_regression(dataset_train, ddG_train)
+            regressor = Ridge()
+        k_fold_cross_validation(regressor, input_dataset)
+        regression = train_regression(regressor, classifier_tool, dataset_train, ddG_train)
 
-        k_fold_cross_validation(regression, dataset_test, ddG_test)
         prediction = regression.predict(dataset_test)
         setup_evaluation_plot(prediction, ddG_test, classifier_tool, input_training_map)
 

@@ -1,13 +1,22 @@
+import logging
 import numpy as np
 import matplotlib.pyplot as plt
 
 from src.scripts.io.writer.plot_file_writer import write_plot_as_png
+
+console = logging.StreamHandler()
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+console.setFormatter(formatter)
+LOG = logging.getLogger("Draw plots and compute PPC")
+LOG.addHandler(console)
+LOG.setLevel(logging.INFO)
 
 
 def setup_evaluation_plot(prediction, ddG_test, classifier_tool, inputfilepath):
     title = inputfilepath.split('/')[len(inputfilepath.split('/')) - 1].replace('.csv', '').replace('.txt', '') + '_' + classifier_tool
     differences = [abs(ddG_test.values.tolist()[i] - prediction[i]) for i in range(len(prediction))]
 
+    LOG.info("Start drawing plots")
     # figure 1: difference_figure
     plot_difference_figure(differences, title)
 
@@ -16,6 +25,11 @@ def setup_evaluation_plot(prediction, ddG_test, classifier_tool, inputfilepath):
 
     # figure 3: pred_and_test_point_figure
     plot_pred_and_test_point_figure(prediction, ddG_test, title)
+    LOG.info("Finished drawing plots")
+    LOG.info("Compute PPC")
+    ppc = ((prediction * ddG_test).mean() - (prediction.mean() * ddG_test.mean()))/(prediction.std() * ddG_test.std())
+    LOG.info("Finished computing PPC")
+    LOG.info(" PPC = "+str(ppc))
 
 
 def plot_difference_figure(differences, title):
